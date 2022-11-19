@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
+    <ProjectReference Include="..\Patterns\BuilderPattern\BuilderPattern.csproj" />
+    <ProjectReference Include="..\Patterns\SingletonPattern\SingletonPattern.csproj" />
   </ItemGroup>
-
+  
 </Project>
