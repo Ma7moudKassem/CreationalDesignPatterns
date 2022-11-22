@@ -1,4 +1,6 @@
-﻿Console.WriteLine("************ Builder Pattern ************");
+﻿using BuilderPattern.Builder;
+
+Console.WriteLine("************ Builder Pattern ************");
 Director director = new Director();
 IBuilder carBuilder = new Car("Toyota");
 IBuilder motorCycleBuilder = new MotorCycle("Yamaha");
