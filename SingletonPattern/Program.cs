@@ -19,6 +19,8 @@ Console.WriteLine("Counter 2 :"+counter2.Count.ToString());
 
 //with multi thread
 
+using SingletonPattern.Counter;
+
 Task task1 = Task.Factory.StartNew(() =>
 {
     Counter counter1 = Counter.GetInstance();

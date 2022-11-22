@@ -1,4 +1,4 @@
-﻿namespace SingletonPattern;
+﻿namespace SingletonPattern.Counter;
 
 public class Counter
 {
