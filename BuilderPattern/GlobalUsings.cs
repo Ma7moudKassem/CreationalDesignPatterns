@@ -1,2 +1,3 @@
 ﻿global using BuilderPattern;
-global using SingletonPattern;
+
+global using System.Text;
